@@ -10,6 +10,12 @@ h1 {
 }
 
 #quote {
-    height: 5vh;
-    transition: all ease 0.4s;
+  height: 5vh;
+  transition: all ease 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 10px;
+  }
 }
